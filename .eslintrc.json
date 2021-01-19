@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": false,
+        "node": true,
+        "es6": true,
+        "jest": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "globals": {},
+    "ignorePatterns": ["node_modules/"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    }
+}
